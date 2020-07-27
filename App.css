@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Brown";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./fonts/Brown-Regular.ttf"); /* IE9 Compat Modes */
+    src: local("Brown"), url("./fonts/Brown-Regular.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+
+html,
+body, p, div, strong, span, h1, h2, h3, h4, h5, h6 {
+    font-family: "Brown" !important;
+    /*background-color: rgb(83, 231, 195);*/
+}
+
+.MuiButton-root {
+    font-family: "Brown" !important;
+    font-size: 1.2rem !important;
+    cursor: pointer !important;
+ }
+
+.MuiButton-root {
+    text-transform: none !important;
+}
+
+.MuiBadge-anchorOriginTopRightRectangle {
+    right: unset !important;
+}
+
+.MuiTypography-body2 {
+    font-size: 1.2rem !important;
+    font-family: "Brown" !important;
+}
+
+.MuiInputLabel-outlined.MuiInputLabel-shrink {
+    transform: translate(10px, -8px) scale(1) !important;
+}
+
+.MuiFormLabel-root {
+    font-family: "Brown" !important;    
+}
+
+.MuiFormLabel-root.Mui-focused {
+    color: #494B96 !important;    
+}
+
+legend[class^="PrivateNotchedOutline-legendLabelled-"] > span
+{
+    padding-right: 25px !important;
+}

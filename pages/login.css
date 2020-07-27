@@ -1,0 +1,56 @@
+html,
+body {
+    background-color: #fafafa;
+}
+
+#passwordStrength {
+    height: 20px;    
+    float: left;
+    width: 100%;    
+    margin-top: 0.25rem;
+    background-color: #cccccc;
+}
+
+.hideBlock {
+    display: none;
+}
+
+.displayBlock {
+    display: block;
+}
+
+.weak {
+    height: 20px;
+    width: 33%;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+}
+
+.medium {
+    height: 20px;
+    width: 66%;
+    background-color: yellow;
+    color: #000;
+    text-align: center;
+}
+
+.strong {
+    height: 20px;
+    width: 100%;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+}
+
+.CustomersList-root-1 {
+    background-color: #fafafa !important;    
+}
+
+.react-datepicker-wrapper {
+    width: 100% !important;
+}
+
+p, strong {
+    font-size: 1.2rem;
+}
